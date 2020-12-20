@@ -1,11 +1,17 @@
-picoCTF 2018 Writeups
+# picoCTF 2018 Writeups
 
 ## Contents
-1. [Forensics Warmup 1     ](#Forensics-Warmup1-50-points)
-2. [Forensics Warmup 2     ](#Forensics-Warmup2-50-points)
-3. [General Warmup 1       ](#General-Warmup1-50-points)
-4. [General Warmup 2       ](#General-Warmup2-50-points)
-5. [General Warmup 3       ](#General-Warmup3-50-points)
+**Forensics**
+* [Forensics Warmup 1     ](#Forensics-Warmup1-50-points)
+* [Forensics Warmup 2     ](#Forensics-Warmup2-50-points)
+
+**General Sills**
+* [General Warmup 1       ](#General-Warmup1-50-points)
+* [General Warmup 2       ](#General-Warmup2-50-points)
+* [General Warmup 3       ](#General-Warmup3-50-points)
+
+**Cryptography**
+* [Blaise's cipher        ](#Blaise's-cipher-200-points)
 
 ---------------------------------------------------------------------------------
 ## Forensics Warmup1-50 points
@@ -94,3 +100,23 @@ Python command can be used to convert the hexadecimal to binary.
 picoCTF{61}
 ```
 --------------------------------------------------------------------------------------
+
+## Blaise's cipher - Points: 200
+
+**Challenge**
+
+My buddy Blaise told me he learned about this cool cipher invented by a guy also named Blaise! Can you figure out what it says? Connect with nc 2018shell.picoctf.com 46966
+
+**Hint**
+-There are tools that make this easy.
+-This cipher was NOT invented by Pascal
+
+**Solution**
+
+Even though the name of the person who invented this cipher is BLaise this cipher is known as Vigenere Cipher. So here we have to decode Vigenere Cipher to plaintext. When we connect with ```nc 2018shell.picoctf.com 46966``` we will get a large output from which we will be able to find the text ``` pohzCZK{g1gt3w3_n1pn3wd_ax3s7_maj_hof08hk0}``` which is in the format of the flag that we required. So this is the cipher text that we need to decode. But the problem here is that the key is not provided. We know that the format of the flag is picoCTF{}, therefore here pohzCZK corresponds to picoCTF. From this when I tried to find the key by using the Vigenere cipher matrix I got something like "AGFLAGF". It will give picoCTF for pohzCZK but the rest of the text is not decoded correctly. So I assumed that the key is ```flag``` and to get the correct form of the key I added two random characters in front of ```pohzCZK{g1gt3w3_n1pn3wd_ax3s7_maj_hof08hk0}```. It is only after that I was able to find the correct flag.
+
+**Flag**
+```
+picoCTF{v1gn3r3_c1ph3rs_ar3n7_bad_cdf08bf0}
+```
+----------------------------------------------------------------------------------------------------------------
