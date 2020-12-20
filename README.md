@@ -2,16 +2,16 @@
 
 ## Contents
 **Forensics**
-* [Forensics Warmup 1     ](#Forensics-Warmup1-Points:-50)
-* [Forensics Warmup 2     ](#Forensics-Warmup2-Points:-50)
+* [Forensics Warmup 1     ](#Forensics-Warmup1-Points-50)
+* [Forensics Warmup 2     ](#Forensics-Warmup2-Points-50)
 
 **General Sills**
-* [General Warmup 1       ](#General-Warmup1-Points:-50)
-* [General Warmup 2       ](#General-Warmup2-Points:-50)
-* [General Warmup 3       ](#General-Warmup3-Points:-50)
+* [General Warmup 1       ](#General-Warmup1-Points-50)
+* [General Warmup 2       ](#General-Warmup2-Points-50)
+* [General Warmup 3       ](#General-Warmup3-Points-50)
 
 **Cryptography**
-* [Blaise's cipher        ](#Blaise's-cipher-Points:-200)
+* [Blaise's cipher        ](#Blaise's-cipher-Points-200)
 
 ---------------------------------------------------------------------------------
 ## Forensics Warmup1 - Points: 50
