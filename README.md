@@ -9,6 +9,10 @@
 * [General Warmup 1       ](#General-Warmup1-Points-50)
 * [General Warmup 2       ](#General-Warmup2-Points-50)
 * [General Warmup 3       ](#General-Warmup3-Points-50)
+* [Resources              ](#Resources-Points-50)
+
+**Reversing**
+* [Reversing Warmup 1     ](#Reversing-Warmup1-Points-50)
 
 **Cryptography**
 * [Blaise's cipher        ](#Blaises-cipher-Points-200)
@@ -100,6 +104,37 @@ Python command can be used to convert the hexadecimal to binary.
 picoCTF{61}
 ```
 --------------------------------------------------------------------------------------
+
+## Resources-Points 50
+
+**Challenge**
+
+We put together a bunch of resources to help you out on our website! If you go over there, you might even find a flag! https://picoctf.com/resources (link)
+
+**Solution**
+
+When we click on the link provided we will guided to the ```picoCTF-resources``` page. At the bottom of the page we will bw able to find the flag.
+
+**Flag**
+```
+picoCTF{xiexie_ni_lai_zheli}
+```
+--------------------------------------------------------------------------------------------------
+
+
+## Reversing Warmup1-Points 50
+
+**Challenge**
+Throughout your journey you will have to run many programs. Can you navigate to /problems/reversing-warmup-1_0_f99f89de33522c93964bdec49fb2b838 on the shell server and run this program to retreive the flag?
+
+**Solution**
+When we navigate to ```/problems/reversing-warmup-1_0_f99f89de33522c93964bdec49fb2b838/run``` on the shell we will get the flag as the output.
+
+**Flag
+```
+picoCTF{welc0m3_t0_r3VeRs1nG}
+```
+-----------------------------------------------------------------------------------------------------
 
 ## Blaise's cipher-Points 200
 
