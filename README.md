@@ -130,7 +130,7 @@ Throughout your journey you will have to run many programs. Can you navigate to 
 **Solution**
 When we navigate to ```/problems/reversing-warmup-1_0_f99f89de33522c93964bdec49fb2b838/run``` on the shell we will get the flag as the output.
 
-**Flag
+**Flag**
 ```
 picoCTF{welc0m3_t0_r3VeRs1nG}
 ```
