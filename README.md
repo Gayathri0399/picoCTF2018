@@ -14,7 +14,7 @@
 * [Blaise's cipher        ](#Blaise's-cipher-Points-200)
 
 ---------------------------------------------------------------------------------
-## Forensics Warmup1 - Points: 50
+## Forensics Warmup1-Points 50
 
 **Challenge**
 
@@ -30,7 +30,7 @@ picoCTF{welcome_to_forensics}
 ```
 --------------------------------------------------------------------------------
 
-## Forensics Warmup2 - Points:50
+## Forensics Warmup2-Points 50
 
 **Challenge**
 
@@ -46,7 +46,7 @@ picoCTF{extensions_are_a_lie}
 ```
 ----------------------------------------------------------------------------------
 
-## General Warmup1 - Points: 50
+## General Warmup1-Points 50
 
 **Challenge**
 
@@ -63,7 +63,7 @@ picoCTF{A}
 ```
 ----------------------------------------------------------------------------------
 
-## General Warmup2 - Points: 50
+## General Warmup2-Points 50
 
 **Challenge**
 
@@ -80,7 +80,7 @@ picoCTF{11011}
 ```
 -------------------------------------------------------------------------------------------
 
-## General Warmup3 - Points: 50
+## General Warmup3-Points 50
 
 **Challenge**
 
@@ -101,7 +101,7 @@ picoCTF{61}
 ```
 --------------------------------------------------------------------------------------
 
-## Blaise's cipher - Points: 200
+## Blaise's cipher-Points 200
 
 **Challenge**
 
