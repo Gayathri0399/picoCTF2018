@@ -11,7 +11,7 @@
 * [General Warmup 3       ](#General-Warmup3-Points-50)
 
 **Cryptography**
-* [Blaise's cipher        ](#Blaise's-cipher-Points-200)
+* [Blaise's cipher        ](#Blaises-cipher-Points-200)
 
 ---------------------------------------------------------------------------------
 ## Forensics Warmup1-Points 50
