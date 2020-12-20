@@ -48,7 +48,7 @@ If I told you your grade was 0x41 in hexadecimal, what would it be in ASCII?
 
 **Solution**
 
-By using the python command ```chr(int('41',16))``` we will get the answer as 'A'
+By using the python command ```chr(int('41',16))``` we will get the answer as 'A'. 
 Concept used: hexadecimal to string conversion.
 
 **Flag**
@@ -82,7 +82,7 @@ What is 0x3D (base 16) in decimal (base 10)
 
 **Solution**
 
-Python code can be used to convert the hexadecimal to binary.
+Python command can be used to convert the hexadecimal to binary.
 
 ```python
 >>> int('3D',16)
